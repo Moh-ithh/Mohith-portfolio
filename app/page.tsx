@@ -3,6 +3,7 @@ import { Hero } from "@/components/hero";
 import { FeaturedWork } from "@/components/featured-work";
 import { EngineeringDomains } from "@/components/engineering-domains";
 import { CaseStudies } from "@/components/case-studies";
+import { AIPlayground } from "@/components/ai-playground";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         <FeaturedWork />
         <EngineeringDomains />
         <CaseStudies />
+        <AIPlayground />
       </main>
     </>
   );
