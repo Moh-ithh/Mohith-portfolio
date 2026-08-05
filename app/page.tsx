@@ -2,6 +2,7 @@ import { Navbar } from "@/components/navigation";
 import { Hero } from "@/components/hero";
 import { FeaturedWork } from "@/components/featured-work";
 import { EngineeringDomains } from "@/components/engineering-domains";
+import { CaseStudies } from "@/components/case-studies";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
         <Hero />
         <FeaturedWork />
         <EngineeringDomains />
+        <CaseStudies />
       </main>
     </>
   );
