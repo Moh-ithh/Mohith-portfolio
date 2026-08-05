@@ -5,6 +5,7 @@ import { EngineeringDomains } from "@/components/engineering-domains";
 import { CaseStudies } from "@/components/case-studies";
 import { AIPlayground } from "@/components/ai-playground";
 import { DeveloperTerminal } from "@/components/developer-terminal";
+import { Contact } from "@/components/contact";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <CaseStudies />
         <AIPlayground />
         <DeveloperTerminal />
+        <Contact />
       </main>
     </>
   );
