@@ -4,6 +4,7 @@ import { FeaturedWork } from "@/components/featured-work";
 import { EngineeringDomains } from "@/components/engineering-domains";
 import { CaseStudies } from "@/components/case-studies";
 import { AIPlayground } from "@/components/ai-playground";
+import { DeveloperTerminal } from "@/components/developer-terminal";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         <EngineeringDomains />
         <CaseStudies />
         <AIPlayground />
+        <DeveloperTerminal />
       </main>
     </>
   );
